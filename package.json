@@ -4,6 +4,7 @@
   "description": "Chantelle's design-system",
   "main": "index.js",
   "scripts": {
+    "commit": "bash ./commit.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/chantelle-lingerie/design-system/issues"
   },
-  "homepage": "https://github.com/chantelle-lingerie/design-system#readme"
+  "homepage": "https://github.com/chantelle-lingerie/design-system#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
 }
