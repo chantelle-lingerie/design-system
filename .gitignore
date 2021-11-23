@@ -1,0 +1,32 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# node modules should never be commit
+node_modules
+
+# local vars & env vars
+environment.js
+.env*
+.vercel
+.next
+
+# testing
+coverage
+
+# misc
+.DS_Store
+
+# build target directories should stay on your machine
+dist
+
+# debug dumps should stay on your machine
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.yarn
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+tsconfig.tsbuildinfo
