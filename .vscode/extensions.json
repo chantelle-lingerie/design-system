@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "graphql.vscode-graphql",
+    "42crunch.vscode-openapi"
+  ],
+  "unwantedRecommendations": ["hookyqr.beautify", "dbaeumer.jshint"]
+}
