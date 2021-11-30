@@ -1,0 +1,14 @@
+node_modules
+.next
+yarn.lock
+package-lock.json
+public
+dist
+confetti.json
+.yarn
+aml.json
+aml.ndjson
+cdk.out
+.expo
+.expo-shared
+.vercel

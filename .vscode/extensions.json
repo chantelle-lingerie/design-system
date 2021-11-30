@@ -2,9 +2,7 @@
   "recommendations": [
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
-    "editorconfig.editorconfig",
-    "graphql.vscode-graphql",
-    "42crunch.vscode-openapi"
+    "editorconfig.editorconfig"
   ],
   "unwantedRecommendations": ["hookyqr.beautify", "dbaeumer.jshint"]
 }
