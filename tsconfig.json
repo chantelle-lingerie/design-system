@@ -16,8 +16,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./*"],
+      "@components/*": ["src/*"]
+    }
   },
-  "include": ["src"],
+  "include": ["src", "stories"],
   "exclude": ["node_modules", "lib"]
 }
