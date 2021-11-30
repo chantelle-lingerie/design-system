@@ -1,6 +1,7 @@
 import React from "react";
+import { Code } from "../../src/atoms/Code";
 
-import * as COLORS from "../../src/tokens/colors";
+import * as COLORS from "./colors";
 
 export default {
   title: "Tokens/Colors",
@@ -12,7 +13,9 @@ export const Colors = () => {
   console.log(Object.entries(COLORS));
 
   return (
-    <div>
+    <>
+      <Code>Colors</Code>
+
       {Object.entries(COLORS).map(
         ([colorKey, colorValue]: [string, string]) => (
           <div
@@ -37,6 +40,6 @@ export const Colors = () => {
           </div>
         )
       )}
-    </div>
+    </>
   );
 };
